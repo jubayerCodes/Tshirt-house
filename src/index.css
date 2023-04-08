@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    @apply py-7 bg-slate-500
+}
+
+.header-container{
+    @apply lg:w-[1280px] mx-auto flex justify-center
+}
+
+.header-nav{
+    @apply flex gap-7
+}
+
+.link-item{
+    @apply font-semibold text-slate-200 hover:text-amber-100 duration-300
+}
